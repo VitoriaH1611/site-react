@@ -2,6 +2,8 @@
 import styles from '@/components/Menu/Menu.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
+import { FaBars } from 'react-icons/fa';
+
 
 
 const Menu = ()=>{
@@ -28,7 +30,7 @@ const Menu = ()=>{
             <div className={styles.menuBtn} id={styles.menuBtn}>
                 {/* <i className="faSolid faBars" id="menuIcon"></i> */}
               
-              <i id={styles.menuIcon} onClick={activeMenu}> Icone </i> 
+              <i id={styles.menuIcon} onClick={activeMenu}> <FaBars/> </i> 
             </div>
         </div>
     </nav>

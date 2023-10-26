@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Menu from '@/components/Menu'
+import HomeTop from '@/components/HomeTop'
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       <main>
         
         <Menu/>
-        <h1>Bem Vindo Foco Ensino</h1>
+       <HomeTop/>
         
       </main>
     </>
