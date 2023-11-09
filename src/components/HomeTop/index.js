@@ -1,10 +1,20 @@
 import styles from '@/components/HomeTop/HomeTop.module.css'
+import Link from 'next/link' 
 
 
 const HomeTop = ()=>{
      
     return(
-        <section className={styles.top}>
+    <section className={`imgTop ${styles.top} ${styles.content}` } >
+
+         <style>{
+            
+                  `.imgTop{
+    background: linear-gradient(to right, var(--main-color) 25%, rgba(255, 255, 255, 0)), url(/images/banner_top_v5.jpg) no-repeat center;
+   }`
+            
+            }
+         </style>
         <div className={styles.maxWidth}>
             <div className={styles.topContent}>
                 <div className={styles.text1}>Temos a solução</div>

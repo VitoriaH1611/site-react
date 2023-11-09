@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Menu from '@/components/Menu'
 import HomeTop from '@/components/HomeTop'
+import HomeServ from '@/components/HomeServ'
+import HomePriv from '@/components/HomePrim'
 
 
 export default function Home() {
@@ -16,7 +18,8 @@ export default function Home() {
         
         <Menu/>
        <HomeTop/>
-        
+       <HomeServ/>
+       <HomePriv/>
       </main>
     </>
   )
