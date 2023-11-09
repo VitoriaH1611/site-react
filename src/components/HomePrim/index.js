@@ -7,7 +7,7 @@ const HomePrim = ()=>{
     return(
     <section className={` imgPremium ${styles.premium}`}>
 
-<style>{
+    <style>{
             
             `.imgPremium{
  url(/images/banner_top_v5.jpg) ;

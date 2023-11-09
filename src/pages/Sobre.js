@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Menu from '@/components/Menu'
-
+import SobreContent from '@/components/SobreContent'
 
 export default function Sobre() {
   return (
@@ -14,7 +14,7 @@ export default function Sobre() {
       <main>
         
         <Menu/>
-        <h1>Bem Vindo Foco Ensino</h1>
+       <SobreContent/>
         
       </main>
     </>

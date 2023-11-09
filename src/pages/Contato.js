@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Menu from '@/components/Menu'
+import styles from '@/styles/contactContent.module.css'
+import ContatoContent from '@/components/ContatoContent'
 
 
 export default function Contato() {
@@ -14,7 +16,16 @@ export default function Contato() {
       <main>
         
         <Menu/>
-        <h1>Bem Vindo Foco Ensino</h1>
+        <section className= {`${styles.contact} ${styles.content}`}>
+        <div className= {styles.maxWidth}>
+            <h2 className= {styles.title}>Contato</h2>
+            <div className= {styles.contactContent}>
+
+            <ContatoContent/>
+
+              </div>
+              </div>
+        </section>
         
       </main>
     </>

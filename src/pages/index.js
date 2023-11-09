@@ -3,6 +3,7 @@ import Menu from '@/components/Menu'
 import HomeTop from '@/components/HomeTop'
 import HomeServ from '@/components/HomeServ'
 import HomePriv from '@/components/HomePrim'
+import SobreContent from '@/components/SobreContent'
 
 
 export default function Home() {
